@@ -1,5 +1,4 @@
 # REST WELL WITH HAPI
----
 ## HANDLING
 ### Exercise 3 of 13
 
