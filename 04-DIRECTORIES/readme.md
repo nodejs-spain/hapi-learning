@@ -3,14 +3,14 @@
 
 Create a server which routes requests to the path /foo/bar/baz/file.html to a
 file in a directory, e.g. public/file.html, which contains the following:
-´´´
+```
     <html>
         <head><title>Hello Directories</title></head>
         <body>
             Hello Directories
         </body>
     </html>
-´´´
+```
 ---
 ## HINTS
 
