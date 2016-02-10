@@ -8,11 +8,11 @@ to `GET /{name}`
 
 When you have completed your server, you can run it in the test environment
 with:
-```
+```bash
   makemehapi run program.js
 ```
 And once you are ready to verify it then run:
-```
+```bash
   makemehapi verify program.js
 ```
 ---
@@ -20,7 +20,7 @@ And once you are ready to verify it then run:
 
 Create a server that listens on port 8080, if none is passed from the command
 line, with the following code:
-```
+```javascript
     var Hapi = require('hapi');
     var server = new Hapi.Server();
     server.connection({
@@ -29,7 +29,7 @@ line, with the following code:
     });
 ```
 Add a route handler similar to the following:
-```
+```javascript
     function handler (request, reply) {
         reply('Hello ' + request.params.name);
     }

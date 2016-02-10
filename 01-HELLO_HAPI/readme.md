@@ -12,7 +12,7 @@ The workshop will execute requests against the server and verify the output.
 
 Create a server that listens on port 8080 , if none is passed from the command
 line, with the following code:
-```
+```javascript
     var Hapi = require('hapi');
     var server = new Hapi.Server();
     
@@ -22,12 +22,12 @@ line, with the following code:
     });
 ```
 Routes are added via the route function:
-```
+```javascript
     server.route({path: '/', method:'GET', handler: anonOrYourFunction});
 ```
 Handlers can be anonymous functions or separately declared (just like in
 javascript :P), but all of them should have this signature:
-```
+```javascript
     function handler(request, reply) {
     
         // Request has all information
@@ -38,7 +38,7 @@ javascript :P), but all of them should have this signature:
 ```
 Calling the start function gets a server listening on the assigned port. Note
 that a callback is required when calling start:
-```
+```javascript
     server.start(function () {
         console.log('Server running at:', server.info.uri);
     });
