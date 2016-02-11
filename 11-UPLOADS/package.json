@@ -1,0 +1,31 @@
+{
+  "name": "hapi-learning",
+  "version": "1.0.0",
+  "description": "makemehapi exercises",
+  "main": "app.js",
+  "dependencies": {
+    "hapi": "^13.0.0",
+    "inert": "^3.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpanodejs/hapi-learning.git"
+  },
+  "keywords": [
+    "hapi",
+    "nodejs",
+    "learning",
+    "lpa",
+    "sejas"
+  ],
+  "author": "Antonio Sejas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lpanodejs/hapi-learning/issues"
+  },
+  "homepage": "https://github.com/lpanodejs/hapi-learning#readme"
+}
